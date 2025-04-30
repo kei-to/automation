@@ -1,0 +1,12 @@
+firefox_profile/
+web-scraping/debug*
+channel_videos.html
+automation.code-workspace
+.vscode/launch.json
+debug-username.png
+web-scraping/Lean-selenium_20250427_01.py
+web-scraping/Lean-selenium_20250427_00.py
+web-scraping/Lean-selenium_20250427_02.py
+credentials.env
+*.pyc
+.env
