@@ -9,7 +9,6 @@ load_dotenv('credentials.env')
 BEARER_TOKEN = os.getenv('BEARER_TOKEN')
 ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
 
-
 class TwitterClient:
     def __init__(self, env_path='credentials.env'):
         # 認証情報ロード
@@ -24,10 +23,10 @@ class TwitterClient:
             'Authorization': f'Bearer {ACCESS_TOKEN}',
             'Content-Type': 'application/json'
         }
+        
         payload = {
             'text': text
         }
-        
         response = requests.post(url, json=payload, headers=headers)
         
         if response.status_code == 201:
