@@ -10,3 +10,5 @@ web-scraping/Lean-selenium_20250427_02.py
 credentials.env
 *.pyc
 .env
+youtube-data-api/config/settings.json
+youtube_analysis.db
